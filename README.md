@@ -1,30 +1,15 @@
-# React + TypeScript + Vite
+# Project Flashcards
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Stack: React, Redux Toolkit + RTK Query, TypeScript, SCSS, Vite, Git + (radix-ui, react-toastify, clsx, storybook, react-hook-form, zod, react-router-dom)
 
-Currently, two official plugins are available:
+Layout: https://www.figma.com/file/PwHkQjA62wyw8BSEyW4gIk/%D0%9E%D0%B1%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BF%D0%BE-%D0%BA%D0%B0%D1%80%D1%82%D0%BE%D1%87%D0%BA%D0%B0%D0%BC?type=design&node-id=2-2378&mode=design&t=Zo81vAha1plPCsVh-0
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Description
 
-## Expanding the ESLint configuration
+In this application you can create a set of cards on absolutely any topic and use them for memorization. You can also look at decks of other users. The main page contains filtering, navigation and sorting elements, while the decks themselves are presented in table form. The application implements authorization, registration and password recovery.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Register or use the test account:
 
-- Configure the top-level `parserOptions` property like this:
+login: test.account.cards@gmail.com
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+password: 1234
