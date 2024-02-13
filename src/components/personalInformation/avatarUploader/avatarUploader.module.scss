@@ -1,0 +1,23 @@
+.root {
+  position: relative;
+
+  .uploader {
+    cursor: pointer;
+
+    position: absolute;
+    right: -4px;
+    bottom: -15px;
+
+    text-align: right;
+
+    .editAvatar {
+      all: unset;
+      width: 32px;
+      height: 32px;
+
+      :hover {
+        fill: #8c61ff;
+      }
+    }
+  }
+}

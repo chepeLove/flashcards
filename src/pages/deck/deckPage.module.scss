@@ -1,0 +1,17 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputSearch {
+  margin: 25px 0;
+}
+
+.pagination {
+  margin-top: 25px;
+}
+
+.noResults {
+  display: inline-block;
+  margin-top: 20px;
+}

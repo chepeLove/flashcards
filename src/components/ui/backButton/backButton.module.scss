@@ -1,0 +1,18 @@
+.button {
+  margin-bottom: 33px;
+  padding: 0;
+
+  &:hover {
+    color: var(--color-accent-100);
+
+    .icon {
+      color: var(--color-accent-100);
+    }
+  }
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  color: var(--color-light-100);
+}
